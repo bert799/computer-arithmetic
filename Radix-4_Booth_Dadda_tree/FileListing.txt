@@ -1,0 +1,36 @@
+========================================================================================
+File listing:
+========================================================================================
+./adder                             contains the adder example Vivado project files
+    ./adder/rtl
+        adder.v                     HDL code for the example 25-bit signed adder
+        registerDFF                 HDL code for variable width register
+        adder_top.v                 HDL code for top level module that instantiates the adder, in-between registers
+    ./adder/sim
+        adder_tb.v                  HDL code for the adder testbench
+        adder_tb_behav.wcfg         waveform file for functional verification
+        ./adder/sim/stimuli         
+            RTLin1_adder.txt        adder input in hex for functional verification 
+            RTLin2_adder.txt        adder input in hex for functional verification 
+            RTLoutIdeal_adder.txt   adder expected output (overflow, sum) in hex for functional verification 
+    saif_file_adder.saif            simulation activity file for power estimation
+    TimeConstraints.xdc             adder clk period constraints for FPGA synthesis and implementation
+----------------------------------------------------------------------------------------    
+./mult                              contains the multiplier example Vivado project files
+    ./mult/rtl
+        mult.v                      HDL code for the example 25-bit signed multiplier
+        registerDFF                 HDL code for variable width register
+        mult_top.v                  HDL code for top level module that instantiates the multiplier, in-between registers
+    ./mult/sim
+        mult_tb.v                   HDL code for the multiplier testbench
+        mult_tb_behav.wcfg          waveform file for functional verification
+        ./mult/sim/stimuli         
+            RTLin1_mult.txt         multiplier input in hex for functional verification 
+            RTLin2_mult.txt         multiplier input in hex for functional verification 
+            RTLoutIdeal_mult.txt    multiplier expected output (overflow, sum) in hex for functional verification 
+    saif_file_adder.saif            simulation activity file for power estimation
+    TimeConstraints.xdc             multiplier clk period constraints for FPGA synthesis and implementation
+----------------------------------------------------------------------------------------
+runme_adder.tcl                     tcl script for setting up the Vivado project for the example adder
+runme_adder.tcl                     tcl script for setting up the Vivado project for the example multiplier
+----------------------------------------------------------------------------------------
