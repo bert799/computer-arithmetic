@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="70" Path="C:/Users/Admin/Desktop/project_2/project_2.xpr">
+<Project Product="Vivado" Version="7" Minor="70" Path="C:/Users/Admin/Documents/GitHub/computer-arithmetic/Radix-4 Booth with Row-wise Binary Adder Tree/project_2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="abd9bb2b9417408ab9aa276b4671bc32"/>
@@ -91,6 +91,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PPRDIR/../multiplier/mult/rtl/mult.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -98,6 +99,7 @@
       </File>
       <File Path="$PPRDIR/../multiplier/mult/rtl/registerDFF.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -105,6 +107,7 @@
       </File>
       <File Path="$PPRDIR/../multiplier/mult/rtl/mult_top.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -130,6 +133,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PPRDIR/../multiplier/mult/sim/mult_tb.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
